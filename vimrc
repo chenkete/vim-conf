@@ -23,10 +23,11 @@ call vundle#end()
 filetype plugin indent on
 
 " @airline
-set t_Co=256
+if $TERM == "xterm-256color"
+	set t_Co=256
+endif
 let g:airline#extensions#tabline#enabled = 1   " 是否打开tabline
 set laststatus=2  "永远显示状态栏
 let g:airline_theme='bubblegum' "选择主题
 
 " color scheme
-colorscheme dark
