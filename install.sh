@@ -14,10 +14,10 @@ fi
 
 VIM_CONF_DIR=$HOME/.vim
 VIMRC=$HOME/.vimrc
-# 
-# echo "clone Vundle"
-# git clone https://github.com/VundleVim/Vundle.vim.git $VIM_CONF_DIR/bundle/Vundle.vim
-# 
+
+echo "clone Vundle"
+git clone https://github.com/VundleVim/Vundle.vim.git $VIM_CONF_DIR/bundle/Vundle.vim
+
 echo "copy .vimrc"
 cp vimrc $VIMRC
  
