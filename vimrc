@@ -18,6 +18,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'kien/ctrlp.vim'
+Plugin 'tomasiser/vim-code-dark'
 
 " Add plugins here
 
@@ -31,3 +32,4 @@ set laststatus=2  "永远显示状态栏
 let g:airline_theme='bubblegum' "选择主题
 
 " color scheme
+colo codedark
