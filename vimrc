@@ -18,7 +18,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'kien/ctrlp.vim'
-Plugin 'tomasiser/vim-code-dark'
+Plugin 'chenkete/vim-code-dark'
 
 " Add plugins here
 
